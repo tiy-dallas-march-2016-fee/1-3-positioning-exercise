@@ -1,0 +1,80 @@
+
+body {
+  font-family: sans-serif;
+}
+
+.widget {
+  border: solid 2px #CCC;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 35px;
+  position: relative;
+}
+
+h1 {
+  color: #59D95D;
+  margin-top: 0;
+}
+
+h2 {
+  color: #777;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+ul li {
+  color: #777;
+  font-size: 1.4em;
+  list-style-type: square;
+  margin: 8px 0;
+}
+
+a {
+  border-bottom: solid 1px #777;
+  color: #6C9ABA;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+.lesson-number {
+  /* basic formatting */
+  background-color: #CCC;
+  color: #FFF;
+  font-size: 3.5em;
+
+  /* how I turned this into a circle */
+  border-radius: 100%;
+
+  /* positioning and sizing the circle */
+  height: 150px;
+  position: absolute;
+  right: -30px;
+  top: 75px;
+  width: 150px;
+
+  /* to center the text */
+  text-align: center;
+}
+
+.lesson-number span {
+  line-height: 2.6em; /* move the number down */
+}
+
+.logos {
+  /* remove that default padding */
+  padding-left: 0px;
+  /* remember how when you float all the child elements of an element the element loses all of its height? This is to fix that. */
+  overflow: auto;
+}
+
+.logos li {
+  /* want the items to line up */
+  float: left;
+  list-style-type: none;
+  margin: 0 3px;
+}
+
+.logos img {
+  width: 50px;
+}
